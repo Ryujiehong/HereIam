@@ -1,0 +1,666 @@
+<script type="text/javascript"> 
+   function jump()   
+{       var mymessage=confirm("hereIAM！"); 
+if(mymessage==true)  
+{   
+document.write("hereIAM！"); 
+}  
+else   
+{    
+document.write("hereIAM！");  
+} 
+}  
+</script> 
+
+1
+1
+1
+
+
+
+function jump(){       var mychar="哒湿……准备好了，起航吧…！";
+      alert(mychar);    }    
+   //单行注释    
+     //我是单行注释，我也要隐藏起来！*/     
+     </script> 
+     </head> 
+     <body> 
+     <form>   
+     <input type="button" onclick="jump()" value="弹出提示框" />          
+     </form>
+
+
+
+
+var my_first_variable="变量"    
+ </script> 
+ </head> 
+ <body> 
+ </body> 
+ </html> 
+
+
+
+
+
+
+ <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>声明变量</title>
+<script type="text/javascript">
+  var mya;
+  mya=5;
+  alert("mya的值是:"+mya);
+</script>
+</head>
+<body>
+</body>
+</html>
+
+ <head>   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+ <title>表达式</title>  
+  <script type="text/javascript"> 
+  var num1; 
+   num1=10-5; 
+    var num2=num1+6;   
+    document.write("小明还剩:"+num1+"元"+"<br>");   
+    document.write("小红花:"+num2+"元买个铅笔盒"); 
+    </script>  
+    </head>  
+    <body> 
+
+
+
+
+
+
+
+!DOCTYPE HTML> 
+ <html>
+   <head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <title>+操作符</title> 
+    <script type="text/javascript"> 
+       var mynum= 1+5            
+     var mychar= "中"+"国"           
+        document.write("mynum的值:"+mynum+"<br>");   
+         document.write("mychar的值:"+mychar); 
+          </script> 
+          </head> 
+          <body> 
+          </body> 
+          </html>
+
+
+
+
+
+
+
+
+<head>  
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>++/--</title> 
+   <script type="text/javascript"> 
+   var numa=1; 
+   var numb=7; 
+   numa++; 
+    numb--; 
+      document.write("numa的值:"+numa+"<br/ >"); 
+     document.write("numb的值:"+numb); 
+         </script> 
+       </head> 
+       <body> 
+       </body> 
+       </html>
+
+
+
+
+
+
+
+      <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <title>比较操作符</title> 
+        <script type="text/javascript"> 
+         var numa,numb,jq1,jq2;  
+
+numa=1; 
+ numb=7;  
+ jq1=numa>numb    
+        jq2=numa!=numb  
+    document.write("numa大于numb的分数吗？"+jq1+"<br>") 
+ document.write("numa不等于numb的分数吗？"+ jq2); 
+ </script> 
+    </head> 
+    <body> 
+    </body> 
+    </html>
+
+
+
+
+
+
+    <head>   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+     <title>逻辑与</title>  
+      <script type="text/javascript"> 
+       var numa,numb; 
+       numa=60;  
+        numb=70;  
+          if(numa>=60&&numb>=60)  
+            {     document.write("JavaScript考核通过！"+"<br>");    } 
+ </script> 
+   </head>  
+   <body> 
+   </body>  
+  </html>
+
+
+
+
+
+
+
+<head>   
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+ <title>逻辑或</title>  
+ <script type="text/javascript"> 
+  var numa,numb,jq1; 
+  numa=50;  numb=55;  
+   jq1=numa>numb||numa==numb;   
+document.write("jq1的值是:"+jq1+"<br>") 
+ </script> 
+ </head> 
+   <body> 
+   </body> 
+   </html>
+
+
+
+
+
+
+
+
+
+   <head>  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+     <title>逻辑非</title>  
+      <script type="text/javascript"> 
+       var numa,numb,jq1;  
+       numa=60;  numb=70;  
+         jq1=!(numa<numb)        
+            document.write("jq1的值是:"+jq1+"<br>")  
+           jq1=!(jq1)  
+            document.write("jq1的值是:"+jq1+"<br>") 
+             </script> 
+             </head> 
+             <body> 
+             </body> 
+             </html>
+ 
+
+
+
+
+
+
+
+<head>  
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>操作符优先级</title>  
+  <script type="text/javascript"> 
+   var numa,numb,jq1; 
+   numa=5;  numb=2;  
+    jq1=numa + 30 >10 && numb * 3<20; 
+     jq2=((numa + 30) / (7-numb)) * 3   
+      document.write("jq1的值是:"+jq1+"<br>"); 
+       document.write("jq2的值是:"+jq2); 
+        </script> 
+         </head> 
+          <body> 
+            </body> 
+
+
+
+
+
+
+
+
+<script type="text/javascript"> 
+   var a,b,sum;   
+    var  a  = 5;  
+      var  b  = 100%7;   
+      sum = a > b && a*b > 0   
+      document.write( "我认为 a 的值是:" +a+ " b的值是:" +b+ "sum 的值是:" +sum+"<br/>");  
+     document.write( "答案是,第一轮计算后，a 为："+ a +";b为："+b +";第一次计算sum为："+ sum +"<br/>");  
+     sum = ( (++a) + 3 ) / (2 - (--b) ) * 3;   
+     document.write("再一次计算后，我认为 a 的值是:" +  a  + " b的值是:" +  b + "sum 的值是:" +  sum +"<br/>"); 
+     document.write( "答案是，第二轮计算后，a 为：" + a + ";b为：" + b +";第二次计算sum为："+ sum +",sum的类型也发生变化了。");     
+   </script>
+
+ 
+
+
+
+
+
+ <script type="text/javascript"> 
+   var myarr=new Array(); //定义数组 
+   myarr[0]=80;   
+    myarr[1]=60;  
+    myarr[2]=99;  
+    document.write("第一个人的成绩是:"+myarr[0]+"<br/ >"); 
+    document.write("第二个人的成绩是
+    :"+myarr[1]+"<br/>"); 
+  document.write("第三个人的成绩是:"+myarr[2]+"<br/>"); 
+ </script> 
+   </head>  
+   <body>  
+   </html>
+
+
+
+
+
+
+
+   <script type="text/JavaScript"> 
+    var myarr=new Array();  
+     document.write("数组的第一个值："+myarr[0]);  
+     </script>
+
+
+
+
+
+
+
+<script language="javascript">  
+ //var myarr = new Array(88,90,68);
+ 方法2  var myarr = new Array(3); 
+  myarr[0] = 88; 
+   myarr[1] = 90; 
+   myarr[2] = 68; 
+   //myarr[3] = 100;     
+    document.write("数组第一个值是:"+myarr[0]+"<br>"); 
+    document.write("数组第二个值是:"+myarr[1]+"<br>"); 
+    document.write("数组第三个值是:"+myarr[2]+"<br>"); 
+  //document.write("数组值是:"+myarr+"<br>");方法2 
+   </script>
+
+
+
+
+
+
+
+<script language="javascript">  var myarray=new Array(); 
+myarray[0]=88; 
+ myarray[1]=90; 
+  myarray[2]=68; 
+   myarray[3]=99;   
+  document.write("数组第一个值是:"+myarray[0]+"<br>"); 
+  document.write("数组第二个值是:"+myarray[1]+"<br>"); 
+  document.write("数组第三个值是:"+myarray[2]+"<br>"); 
+  document.write("数组新增加的值是:"+myarray[3]+"<br>");
+       </script>
+
+
+
+
+
+
+
+
+<script language="javascript"> 
+ var myarr=new Array(); 
+    myarr[0]="小红"; 
+       myarr[1]="小明";  
+         myarr[2]="小亮"; 
+            myarr[3]="小川";  
+               document.write("第二人的姓名是
+
+:"+ myarr[1] ); 
+ </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="javascript"> 
+  var mynum=new Array(65,90,88,98);  
+     document.write("数组的长度是:"+mynum.length+"<br/ >" ); 
+    //增加元素，长度随之改变。   
+    mynum[15]=99;   
+     document.write("数组的长度是:"+mynum.length ); 
+      </script>
+
+
+
+
+
+
+
+
+     <script type="text/javascript">  
+     var myarr=new Array(); 
+      for(var i=1;i<4;i++) 
+          {      myarr[i]=new Array();   
+             for(var j=1;j<6;j++) 
+              {    
+                    myarr[i][j]=i*j; 
+                    document.write("myarr["+i+"]["+j+"]的值:"+myarr[i][j]+"<br>");    
+              }   
+              }  
+            </script>
+
+
+
+
+
+
+
+
+
+
+           <script type="text/javascript"> 
+             //创建数组    var arr=['*','##','***','&&','****','##*','**'];  
+               //显示数组长度     alert("arr数组的长度为："+arr.length);   
+                //将数组内容输出，完成达到的效果。 
+                  document.write("输出图形为： "+"<br/>"+arr[0]+"<br/>"+arr[6]+"<br/>"+arr[2]+"<br/>"+arr[4]);    
+                  </script>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/JavaScript">  
+ var ticket =true; //ticket初值为true，表示有票   if(ticket==true)   
+ {   document.write("有票，可以看电影。"); 
+ }    
+  else   
+  {   document.write("没票，电影看不成。"); 
+   } 
+   </script>
+
+
+
+
+
+
+
+
+<script type="text/JavaScript"> 
+ var myage =99;//赵红的年龄为99  
+if(myage<=44)    
+ {document.write("青年");}  
+ else if(myage<=59)   
+    {document.write("中年人");} 
+     else if(myage<=89)  
+        {document.write("老年人");} 
+         else      
+             {document.write("长寿老年人");
+          } 
+           </script> 
+
+
+
+
+
+
+
+
+
+          <script type="text/JavaScript">  
+           var myweek =3;//myweek表示星期几变量 
+            switch(myweek) 
+            {   case 1: 
+              case 2:  
+              document.write("学习理念知识"); 
+                break; 
+                case 3:   
+                case 4:  
+                  document.write("到企业实践"); 
+                  break;  
+                   case 5:  
+                   document.write("总结经验"); 
+                       break;   
+                   //default:这种方法也可实现。 
+                        case 6: 
+                case 7:  
+                        document.write("周六、日休息和娱乐"); 
+                    }  
+                    </script>
+
+
+
+
+
+
+<script type="text/JavaScript">  
+ var myweek =3;//myweek表示星期几变量  
+ switch(myweek) 
+  {   case 1:   case 2:    document.write("学习理念知识"); 
+    break; 
+      case 3: 
+      case 4:    document.write("到企业实践");  
+     break; 
+       case 5:    document.write("总结经验");  
+        break;  
+          //default:这种方法也可实现。 
+          case 6: 
+            case 7:  
+              document.write("周六、日休息和娱乐"); 
+               } 
+                </script>
+
+
+
+
+
+
+
+<script type="text/javascript">  
+   var mynum =1;//mynum初值化数值为1 
+       while(mynum<=5) 
+          { 
+          document.write("数字:"+mynum+"<br/  >");  
+               mynum=mynum+1;  
+               } 
+            </script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript"> 
+     var mynum =6;
+//mynum初值化数值为6 
+  do 
+    {    
+    document.write("数字:"+mynum+"<br/>"); 
+  mynum=mynum-1;
+     }  
+     while(mynum>0  ) 
+        </script>
+
+
+
+
+
+
+
+
+
+
+<script type="text/JavaScript">  
+ var mynum =new Array(70,80,66,90,50,100,89);//定义数组mynum并赋值 
+  var i=0;  
+   while(i<mynum.length) 
+    {   
+      if(mynum[i]<60) 
+          {  
+           document.write("成绩"+mynum[i]+"不及格，不用循环了"+"<br>");  
+               break;  
+          }     document.write("成绩:"+mynum[i]+"及格，继续循环"+"<br>");  
+             i=i+1; 
+                         } 
+              </script>
+
+
+
+
+
+
+
+
+
+              <script type="text/JavaScript">  
+                var mynum =new Array(70,80,66,90,50,100,89);//定义数组mynum并赋值   var i;  
+                  for(i=0;i<mynum.length;i++) 
+                  {     if(mynum[i]<60)  
+                       {    document.write("成绩不及格，不输出！"+"<br>"); 
+                   continue;  
+                   }  
+                     document.write("成绩:"+mynum[i]+"及格，输出!"+"<br>");  
+                      } 
+                      </script> 
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML> 
+ <html> 
+  <head> 
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+   <title>定义函数</title> 
+    <script type="text/javascript">  
+         function sub2()              
+                //定义函数 
+                  {      sub=5-2;  
+                      alert("5和2的差="+sub); 
+                    }  </script> 
+                     </head> 
+                      <body> 
+                      <form>  
+                       <input type="button" value="两数相减" onclick="sub2()" /> 
+                      </form>
+                      </body> 
+                     </html>
+
+
+
+
+
+
+
+<!DOCTYPE HTML> 
+ <html> 
+ <head>  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+   <title>函数调用</title> 
+    <script type="text/javascript"> 
+     function tcon() 
+        {   alert("恭喜你学会函数调用了!");  
+           }  
+        </script> 
+         </head> 
+         <body> 
+          <form>
+            <input type="button"  value="点点我" onclick="tcon()"> 
+              </form> 
+              </body> 
+               </html>
+
+
+
+
+
+
+
+<script type="text/JavaScript">    
+ function add3(x,y,z)                
+     {  
+       sum = x + y +z;    
+     document.write(x+"、"+y+"、"+z+"和:"+sum+"<br/>"); 
+        }  
+          add3(5,8,3); 
+            add3(7,1,4); 
+              </script> 
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">   
+ function  app2(x,y) 
+    { var sum,x,y;    
+      sum = x * y;  return sum;    }  
+       req1=app2(5,6); 
+       req2=app2(2,3);  
+        sumq=req1+req2;   
+         document.write("req1的值:"+req1+"<br/>"); 
+           document.write("req2的值:"+req2+"<br/>"); 
+            document.write(req1+"与"+req2+"和:"+sumq); 
+          </script>
+
+
+
+
+
+
+
+
+
+
+          <script type="text/javascript"> 
+           function bidaxiao(x,y) 
+           //定义函数 
+           {var x,y;  
+                if(x>y){return(x);} 
+                else if(x<y){return(y);} 
+                else{return(x);} 
+                 }   bi1=bidaxiao(5,4); 
+                  bi2=bidaxiao(6,3);  
+                  //函数体，判断两个整数比较的三种情况  
+                      //调用函数，实现下面两组数中，返回较大值。
+                         document.write(" 5 和 4 的较大值是:"+bi1+"<br>"); 
+                        document.write(" 6 和 3 的较大值是:"+bi2 );  
+                            </script>
